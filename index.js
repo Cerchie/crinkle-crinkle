@@ -22,9 +22,7 @@ function getOrthotopeSurfaceArea(length, width, height) {
 
 function arrangeByValue(l, w, h) {
     let arrayToSort = [l, w, h]
-    let firstVal
-    let secondVal
-    let thirdVal
+
     for (let i = 0; i < arrayToSort.length - 1; i++) {
         let firstPointer = arrayToSort[i]
         let secondPointer = arrayToSort[i + 1]
