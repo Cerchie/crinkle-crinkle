@@ -53,10 +53,10 @@ function wrapThatGift(length, width, height) {
     }
 
     let lengthTolerance
-    if (length <= 4) {
-        lengthTolerance = length * 0.5
+    if (longest <= 4) {
+        lengthTolerance = longest * 0.5
     }
-    if (length > 4) {
+    if (longest > 4) {
         lengthTolerance = 2
     }
     let paperWidth = shortest + 2 * middle + 2 * widthTolerance
